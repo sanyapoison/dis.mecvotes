@@ -1,0 +1,53 @@
+.votes_bar.votes_bar_like .vote_action {
+    float: left;
+    margin-left: 16px;
+    color: white;
+    display: flex;
+}
+
+.votes_bar.votes_bar_like .vote_action .couter {
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    outline: none;
+    background-size: 17px 20px;
+    color: transparent;
+}
+
+.votes_bar.votes_bar_like .vote_action button {
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    outline: none;
+    background-size: 17px 20px;
+    color: transparent;
+}
+
+.votes_bar.color-invert button.icon-button {
+    filter: invert(1);
+}
+
+.votes_bar.votes_bar_like .vote_action button.icon-button {
+    background-image: url(like.png);
+}
+
+.votes_bar.votes_bar_like .vote_action button.icon-button.is-active {
+    background-image: url(like-active.png);
+}
+
+
+.votes_bar.color-invert button.icon-button {
+    filter: invert(1);
+}
+
+.votes_bar.color-invert .vote_action {
+    color: black;
+}
